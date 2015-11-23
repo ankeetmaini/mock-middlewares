@@ -1,0 +1,20 @@
+{
+  "name": "mock-middlewares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "monkey-patching.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "monkey-patch": "node monkey-patching.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankeetmaini/mock-middlewares.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankeetmaini/mock-middlewares/issues"
+  },
+  "homepage": "https://github.com/ankeetmaini/mock-middlewares"
+}
