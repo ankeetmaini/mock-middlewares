@@ -4,6 +4,7 @@ var middlewares = require('./middlewares');
 function monkeyPatching (store, middlewares) {
   middlewares.reverse();
   middlewares.forEach(function (middleware) {
+    // we are over-writing store.dispatch, bad.
     store.dispatch = middleware(store);
   });
 
